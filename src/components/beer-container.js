@@ -26,6 +26,7 @@ class BeerContainer extends React.Component {
 	handleSelectBeer(selectedBeer) {
 		this.setState({selectedBeer: selectedBeer});
 	}
+	
 
 	render() {
 		const beerList = [];
