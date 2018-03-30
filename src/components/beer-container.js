@@ -26,7 +26,6 @@ class BeerContainer extends React.Component {
 	handleSelectBeer(selectedBeer) {
 		this.setState({selectedBeer: selectedBeer});
 	}
-	
 
 	render() {
 		const beerList = [];
@@ -38,9 +37,11 @@ class BeerContainer extends React.Component {
 		})
 
 		return (
-			<div className="container">
-				<ul className="list-group col-sm-4">{beerList}</ul>
+			<div className="row top-level-container">
 				<BeerDetail beer={this.state.selectedBeer} />
+				<div className="col-sm-12 col-md-4 order-md-1">
+					<ul className="list-group">{beerList}</ul>
+				</div>
 			</div>
 		)
 	}

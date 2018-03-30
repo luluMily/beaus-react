@@ -1,9 +1,123 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #000;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  padding-bottom: 70px;
+  color: #fff
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.top-level-container {
+  margin-top: 20px;
+}
+
+.jumbotron {
+  background-color: #000;
+}
+
+.jumbotron p {
+  color: #f4dfc0;
 }
 
 .list-group-item {
   cursor: pointer;
+  border-color: #000;
+}
+
+.beer-item .card-text {
+  color: #c39f79;
+}
+
+.beer-item.list-group-item {
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.beer-detail h2 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.beer-detail h4 {
+  padding-left: 35px;
+  padding-bottom: 15px;
+}
+
+.detail-main {
+  margin-bottom: 30px;
+}
+
+.beer-id {
+  font-size: 12px;
+}
+
+.price {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.style {
+  margin-bottom: 20px;
+}
+
+.style p {
+  color: #a6babb;
+  font-style: italic;
+}
+
+.beer-info p {
+  margin-bottom: 5px;
+}
+
+.store-item div {
+  font-size: 16px;
+}
+
+.store-item {
+  margin-bottom: 15px;
+}
+
+.store-item i {
+  font-size: 10px;
+}
+
+.store-item p {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+.store-item-dividen {
+  width: 90%;
+  height: 6px;
+  background: #000;
+  margin: 25px auto;
+  border-radius: 5px;
+}
+
+.dividen {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 30px;
+}
+
+.note {
+  font-style: italic;
+  font-size: 12px;
+  color: #ccc;
+  padding-top: 15px;
 }
